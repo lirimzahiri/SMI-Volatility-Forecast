@@ -1,0 +1,19 @@
+# Kern
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+yfinance>=0.2.54
+pytz
+requests>=2.31
+
+# UI
+gradio>=4.44
+
+# TimesFM + Backend
+timesfm>=0.0.12
+jax==0.4.28
+jaxlib==0.4.28
+
+# Falls JAX auf deinem Windows-Setup nicht will:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+# und in der App im Backend-Fallback "torch" wählen (siehe Code).
