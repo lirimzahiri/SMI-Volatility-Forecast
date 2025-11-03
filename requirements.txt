@@ -13,7 +13,3 @@ gradio>=4.44
 timesfm>=0.0.12
 jax==0.4.28
 jaxlib==0.4.28
-
-# Falls JAX auf deinem Windows-Setup nicht will:
-# pip install torch --index-url https://download.pytorch.org/whl/cpu
-# und in der App im Backend-Fallback "torch" wählen (siehe Code).
