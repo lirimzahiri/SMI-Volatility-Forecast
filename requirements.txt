@@ -9,7 +9,9 @@ requests>=2.31
 # UI
 gradio>=4.44
 
-# TimesFM + Backend
-timesfm>=0.0.12
-jax==0.4.28
-jaxlib==0.4.28
+# Chronos & ML
+torch>=2.0
+transformers>=4.30
+accelerate
+gluonts
+git+https://github.com/amazon-science/chronos-forecasting.git
